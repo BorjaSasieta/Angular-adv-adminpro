@@ -1,16 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { MultiDataSet, Label, Color } from 'ng2-charts';
 
 @Component({
   selector: 'app-grafica1',
-  templateUrl: './grafica1.component.html',
-  styles: [
-  ]
+  templateUrl: './grafica1.component.html'
 })
-export class Grafica1Component implements OnInit {
+export class Grafica1Component {
 
-  constructor() { }
+  labels1 = ['Pan', 'Refrescos', 'Tacos'];
+  labels2 = ['Consolas', 'TV\'s', 'Juegos'];
+  labels3 = ['cartas', 'pegatinas', 'figuras'];
+  labels4 = ['novia fea', 'amigo tóxico', 'padre maltratador'];
 
-  ngOnInit(): void {
-  }
+  data1 = [[150, 25, 200]];
+  data2 = [[300, 500, 2000]];
+  data3 = [[35, 54, 61]];
+  data4 = [[1 , 4, 1]];
 
 }
