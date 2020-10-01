@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MultiDataSet, Label, Color } from 'ng2-charts';
 
 @Component({
   selector: 'app-grafica1',
